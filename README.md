@@ -14,9 +14,9 @@ All data analysis is done using Jupyter Notebook based on Python 3.8.3. A standa
 ## Data source
 The data is downloaded from Kaggle from this location: https://www.kaggle.com/airbnb/seattle/data
 Three files are used to create the analysis:
-1. 'Listings' containing full descriptions and average review score
-2. 'Reviews' containing unique id for each reviewer and detailed comments
-3. 'Calendar' containing listing id and the price and availability for that day
+1. 'Listings' containing full descriptions and average review score (This data contains detailed information about different hotel listings in Seattle. Some of the attributes in this data are: date on which the listing was made live, price of the listing, number of reviews received by the listin, etc)
+2. 'Reviews' containing unique id for each reviewer and detailed comments (This data contains a review entry in each row)
+3. 'Calendar' containing listing id and the price and availability for that day (This data contains the price information for each of the listings on every day of 2016)
 
 ## Usage
 The code file created used to do all the analysis is available by the name: Airbnb_Seattle.ipynb
